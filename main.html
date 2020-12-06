@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./src/main.style.css">
+</head>
+<body>
+    <h1 class="title">Converter</h1>
+    <div class="container">
+        <!--Input Field-->
+        <form class="form-field">
+            <label for="number">Enter Decimal Number</label>
+            <br>
+            <input 
+                type="number"
+                id='number'
+                class='number'
+                placeholder="Enter Decimal Number"
+                >
+            <br>
+            <button id='submit-btn'>Submit</button>
+        </form>
+        <!--End Input Field-->
+        <hr>
+        <!--Result Field-->
+        <div class="result-field">
+            <h2>Binary</h2>
+            <div class="result-box" id="binary">
+
+            </div>
+
+            <h2>Octal</h2>
+            <div class="result-box" id="octal">
+                
+            </div>
+
+            <h2>Hexadecimal</h2>
+            <div class="result-box" id="hexadecimal">
+                
+            </div>
+        </div>
+        <!--End Result Field-->
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>

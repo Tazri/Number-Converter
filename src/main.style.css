@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:  black;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+body{
+    background-color: crimson;
+}
+
+.container{
+    background: white;
+    min-width: 360px;
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background: whitesmoke;
+    border-radius: 15px;
+}
+
+form{
+    font-size: 24px;
+    color: crimson;
+}
+
+label{
+    font-weight: bold;
+    color: crimson;
+}
+
+input{
+    max-width: 500px;
+    width: 95%;
+    min-width: 250px;
+    height: 40px;
+    padding: 4px;
+    border: 2px solid crimson;
+    margin: 15px 0px 6px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid green;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    margin: 10px 0px;
+    border: 2px solid crimson;
+    color: crimson;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+}
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    color: whitesmoke;
+    background-color: crimson;
+}
+
+hr{
+    width: 70%;
+    margin: 30px auto;
+    border: 2px solid crimson;
+}
+
+h2{
+    color: crimson;
+    text-align: center;
+}
+
+.result-field{
+    padding: 25px 0px;
+}
+
+.result-box{
+    border: 2px solid crimson;
+    max-width: 500px;
+    width: 95%;
+    min-width: 250px;
+    min-height:100px;
+    margin: 25px auto;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
