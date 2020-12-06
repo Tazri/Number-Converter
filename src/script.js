@@ -10,6 +10,11 @@ function action(event){
     event.preventDefault();
     let strNumber = input.value;
     if(!strNumber){
+        //appen child and clear div
+        append(binaryField,'');
+        append(octalField,'');
+        append(hexadecimalField,'');
+        //alert
         alert('Please Provide Number');
     }else{
         let number = Number(strNumber);
