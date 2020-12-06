@@ -98,4 +98,5 @@ h2{
     color: black;
     padding: 10px;
     font-size: 20px;
+    word-wrap: break-word;
 }
